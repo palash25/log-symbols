@@ -1,8 +1,10 @@
-# Log Symbols Ruby
+<h2 align="center">
+  log-symbols
+</h2>
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/log/symbols`. To experiment with that code, run `bin/console` for an interactive prompt.
+<img src="https://raw.githubusercontent.com/palash25/log-symbols/master/assets/screenshot.png?token=AUYLnqKMkueLowvFHs0uEQXi6AzitOj6ks5cGQSewA%3D%3D" align="right" />
 
-TODO: Delete this and the text above, and describe your gem
+> Colored symbols for various log levels for your ruby apps.
 
 ## Installation
 
@@ -27,10 +29,10 @@ require "symbols"
 
 LogSymbol = SYMBOLS::Log.new
 
-puts LogSymbols.info
-puts LogSymbols.warning
-puts LogSymbols.success
-puts LogSymbols.error
+puts LogSymbol.success + " success"
+puts LogSymbol.info + " info"
+puts LogSymbol.warning + " warning"
+puts LogSymbol.error + " error"
 ```
 
 ## Development
@@ -41,7 +43,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/palash25/log-symbols.
+Bug reports and pull requests are welcome on GitHub at this [repo](https://github.com/palash25/log-symbols).
 
 ## License
 
