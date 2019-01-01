@@ -6,6 +6,8 @@
 
 > Colored symbols for various log levels for your ruby apps.
 
+[![](https://img.shields.io/travis/palash25/log-symbols.svg?style=popout)](https://travis-ci.org/palash25/log-symbols/builds)
+
 ## Installation
 
 Add this line to your application's Gemfile:
