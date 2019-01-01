@@ -2,3 +2,9 @@ language: ruby
 
 rvm:
   - 2.5.3
+
+before_install:
+  - gem install -v 1.17.2 bundler --no-rdoc --no-ri
+
+script:
+  - rake test
